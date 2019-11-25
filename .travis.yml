@@ -3,7 +3,7 @@ sudo: false
 
 language: node_js
 node_js:
-  - '8'
+  - '10.9'
 
 addons:
   apt:
@@ -19,5 +19,4 @@ cache:
 install:
   - npm install
 
-script:
-  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+
