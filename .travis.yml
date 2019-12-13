@@ -12,4 +12,8 @@ cache:
 install:
   - npm install
 
+addons:
+  chrome: stable
+  
+
 
